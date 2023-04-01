@@ -51,8 +51,8 @@ export default function StoreListing() {
                   />
                 </Col>
                 <Col>
-                  <h5 style={{ fontWeight: "bold", padding:'0px 10px;'  }}>ALDI</h5>
-                  <p style={{ margin:'0', padding:'0px 10px;'  }}>Delivery * Pickup</p>
+                  <h5 style={{ fontWeight: "bold", width:'200px'  }}>ALDI</h5>
+                  <p style={{ margin:'0', padding:'0px 10px;', width:'250px'}}>Delivery * Pickup</p>
                 </Col>
               </Row>
             </Col>
@@ -81,8 +81,8 @@ export default function StoreListing() {
                   />
                 </Col>
                 <Col style={{}}>
-                  <h5 style={{fontSize:'20px', fontWeight: "bold", margin:'0',padding:'0px 10px;'  }}>Sprouts Farmers Market</h5>
-                  <p style={{ margin:'0',padding:'0px 10px;'  }}> Delivery * Pickup</p>
+                  <h5 style={{fontSize:'20px', fontWeight: "bold", margin:'0',padding:'0px 10px;', width:'300px' }}>Sprouts Farmers Market</h5>
+                  <p style={{ margin:'0',padding:'0px 10px;', width:'200px', alignContent:'center'  }}> Delivery * Pickup</p>
                 </Col>
               </Row>
             </Col>
@@ -111,8 +111,8 @@ export default function StoreListing() {
                   />
                 </Col>
                 <Col md="6" style={{display:'column'}}>
-                  <h5 style={{  fontWeight: "bold", margin:'0',padding:'0px 10px;'  }}>Publix</h5>
-                  <p style={{  margin:'0', padding:'0px 10px;' }}>Delivery</p>
+                  <h5 style={{  fontWeight: "bold", margin:'0',padding:'0px 10px;', width:'200px'  }}>Publix</h5>
+                  <p style={{  margin:'0', padding:'0px 10px;', width:'200px' }}>Delivery</p>
                 </Col>
               </Row>
             </Col>
